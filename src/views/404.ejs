@@ -1,0 +1,26 @@
+<%- include('includes/head')%>
+
+    <body>
+
+        <%- include('includes/nav')%>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-2"> </div>
+
+                    <div class="col-lg-8 my-5">
+                        <h1 class="display-1 text-center">
+                            Erro po, deu mo ruim no try-catch lá
+                        </h1>
+                        <p class="text-center lead">
+                            Falei q era pra fazer um try-catch-fodase mas vc queria colocar MVC
+                            <br>
+                            <%- locals.csrfToken  %>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <%- include('includes/footer') %>

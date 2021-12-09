@@ -1,0 +1,10 @@
+.body {
+    background-color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: brown;
+    border-radius: 10px;
+    padding: 50px;
+}

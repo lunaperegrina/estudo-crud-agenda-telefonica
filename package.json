@@ -1,0 +1,42 @@
+{
+    "name": "aula-express-session",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js",
+        "dev": "webpack -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@popperjs/core": "^2.11.0",
+        "bcryptjs": "^2.4.3",
+        "connect-flash": "^0.1.1",
+        "connect-mongo": "^4.6.0",
+        "css-loader": "^6.5.1",
+        "csurf": "^1.11.0",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "helmet": "^4.6.0",
+        "mongodb": "^4.2.1",
+        "mongoose": "^6.0.14",
+        "style-loader": "^3.3.1",
+        "validator": "^13.7.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "babel-loader": "^8.2.3",
+        "core-js": "^2.6.12",
+        "nodemon": "^2.0.15",
+        "regenerator-runtime": "^0.13.9",
+        "webpack": "^5.64.4",
+        "webpack-cli": "^4.9.1"
+    }
+}
