@@ -63,3 +63,7 @@ app.on('pronto', () => { // depois de receber o emit(), a aplicação começa a 
         console.log('Servidor online')
     })
 })
+
+// app.on('pronto', () => { // depois de receber o emit(), a aplicação começa a ouvir na porta selecionada
+//     app.listen(3333, '192.168.43.170');
+// })
